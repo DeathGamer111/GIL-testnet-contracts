@@ -1,7 +1,7 @@
 # GIL Test Contracts
 
 
-- GTS20: Gauss Token Standard 20
+GTS20: Gauss Token Standard 20
 
 Ferret Token (FERRET) [X] : 0x0C9C5Ab0Bd51e703CFC5529A4F88174DD77CE073
 
@@ -14,8 +14,7 @@ Duck Token (DUCK) [X] : 0x4660df28e58625b08184A0AdB03A56bdd6274e77
 Dog Token (DOG) [X] : 0xBB9408a0e1D65986D2Aa2bdE370E2bD6aa279fa1
 
 
-
-- GTS721: Gauss Token Standard 721
+GTS721: Gauss Token Standard 721
 
 Elephant Collection (ELEPHANT) GTS721 [X] : 0xB145A306281F896ee695B602EE33Ae3fd1586560
 
