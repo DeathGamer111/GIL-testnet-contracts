@@ -1,4 +1,4 @@
-# GIL Test Contracts
+# GIL Testnet Contracts
 
 
 ### GTS20: Gauss Token Standard 20
