@@ -1,28 +1,23 @@
 # GIL Testnet Contracts
 
+![Gauss Gang](assets/gauss-gang.png)
 
-### GTS20: Gauss Token Standard 20
+Test tokens and NFT collections used for development and demonstrations on the Gauss Induction Labs (GIL) testnet. This repository is intended for non-production testing of Gauss token and NFT standards.
 
-Ferret Token (FERRET) [X] : 0x0C9C5Ab0Bd51e703CFC5529A4F88174DD77CE073
+## Contents
 
-Sloth Token (SLOTH) [X] : 0x8AA6A202E5591d44D7cC5de573565FaBAe18e5C7
- 
-Cat Token (CAT) [X] : 0xb943A963b98DffBef4A7fEbFEAa271e2E3E58AE2
- 
-Duck Token (DUCK) [X] : 0x4660df28e58625b08184A0AdB03A56bdd6274e77
+- `contracts/` — test token and NFT contracts
+- `hardhat.config.js` — Hardhat configuration
+- `package.json` — development dependencies
 
-Dog Token (DOG) [X] : 0xBB9408a0e1D65986D2Aa2bdE370E2bD6aa279fa1
+## Development
 
- ---
+```bash
+npm install
+npx hardhat compile
+npx hardhat test
+```
 
-### GTS721: Gauss Token Standard 721
+## Important
 
-Elephant Collection (ELEPHANT) GTS721 [X] : 0xB145A306281F896ee695B602EE33Ae3fd1586560
-
-Platypus Collection (PLATYPUS) GTS721 [X] : 0x09Aacb3375776f771860167f1ab46FD3AEd21d4e
-
-Lion Collection (LION) GTS721 [X] : 0x6b54fbA40Fdf820460dddD2c9E3E3cf52C30A07a
-
-Bear Collection (BEAR) GTS721 [X] : 0xf6c958d9E59E1FF086C42a517B2C4eB9E634484b
-
-Meerkat Collection (MEERKAT) GTS721 [X] : 0xf3366e734f678c29C6AF4c2E6BaC0C4aF976F662
+These contracts and associated test assets are for testnet use only. Do not treat testnet deployments, balances, or configuration as production-grade infrastructure.
